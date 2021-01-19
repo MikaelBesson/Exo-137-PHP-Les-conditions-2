@@ -17,8 +17,8 @@ else {
   //condition fausse
   echo "Non";
 }
-echo "<br><br>";
 
+echo "<br><br>";
 
 /*###############################################*/
 /*################# ACTIVITÉS ###################*/
@@ -29,6 +29,15 @@ echo "2.Est-ce un chat : ";
 
 // TODO mettre votre code ici
 
+if($animal === "Chat") {
+    //condition vraie
+    echo "Oui";
+}
+else {
+    //condition fausse
+    echo "Non";
+}
+
 echo "<br><br>";
 
 //----------------------------------------
@@ -37,6 +46,16 @@ $chat = true;
 echo "3.Est-ce un chat : ";
 
 // TODO mettre votre code ici
+
+if($animal == $chat) {
+    //condition vraie
+    echo "Oui";
+}
+else {
+    //condition fausse
+    echo "Non";
+}
+
 
 echo "<br><br>";
 
